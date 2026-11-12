@@ -1,0 +1,164 @@
+body { /* Style elements matching this existing selector. */
+
+            min-height: 100vh; /* Set min-height for the selected elements. */
+
+            background: /* Set background for the selected elements. */
+
+                linear-gradient( /* Continue the existing CSS selector or declaration. */
+                    rgba(0,0,0,0.75), /* Continue the existing CSS selector or declaration. */
+                    rgba(0,0,0,0.82) /* Continue the existing CSS selector or declaration. */
+                ), /* Continue the existing CSS selector or declaration. */
+
+                url(
+                    'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=2000&q=85'
+                ); /* Continue the existing CSS selector or declaration. */
+
+            background-size: cover; /* Set background-size for the selected elements. */
+
+            background-position: center; /* Set background-position for the selected elements. */
+
+            font-family: /* Set font-family for the selected elements. */
+                'Montserrat', /* Continue the existing CSS selector or declaration. */
+                sans-serif; /* Continue the existing CSS selector or declaration. */
+
+            display: flex; /* Set display for the selected elements. */
+
+            align-items: center; /* Set align-items for the selected elements. */
+
+            justify-content: center; /* Set justify-content for the selected elements. */
+
+            padding: 30px; /* Set padding for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .confirmation-card { /* Style elements matching this existing selector. */
+
+            width: 100%; /* Set width for the selected elements. */
+
+            max-width: 650px; /* Set max-width for the selected elements. */
+
+            background: white; /* Set background for the selected elements. */
+
+            text-align: center; /* Set text-align for the selected elements. */
+
+            padding: 55px 40px; /* Set padding for the selected elements. */
+
+            box-shadow: /* Set box-shadow for the selected elements. */
+                0 25px 70px /* Continue the existing CSS selector or declaration. */
+                rgba(0,0,0,0.4); /* Continue the existing CSS selector or declaration. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .success { /* Style elements matching this existing selector. */
+
+            color: #198754; /* Set color for the selected elements. */
+
+            font-weight: 700; /* Set font-weight for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+            letter-spacing: 2px; /* Set letter-spacing for the selected elements. */
+
+            margin-bottom: 20px; /* Set margin-bottom for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .booking-number { /* Style elements matching this existing selector. */
+
+            font-family: /* Set font-family for the selected elements. */
+                'Oswald', /* Continue the existing CSS selector or declaration. */
+                sans-serif; /* Continue the existing CSS selector or declaration. */
+
+            font-size: 90px; /* Set font-size for the selected elements. */
+
+            line-height: 1; /* Set line-height for the selected elements. */
+
+            font-weight: 600; /* Set font-weight for the selected elements. */
+
+            color: #111; /* Set color for the selected elements. */
+
+            margin-bottom: 20px; /* Set margin-bottom for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .confirmation-title { /* Style elements matching this existing selector. */
+
+            font-family: /* Set font-family for the selected elements. */
+                'Oswald', /* Continue the existing CSS selector or declaration. */
+                sans-serif; /* Continue the existing CSS selector or declaration. */
+
+            font-size: 38px; /* Set font-size for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+            margin-bottom: 35px; /* Set margin-bottom for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .detail { /* Style elements matching this existing selector. */
+
+            border-top: 1px solid #eee; /* Set border-top for the selected elements. */
+
+            padding: 16px 0; /* Set padding for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .detail:last-of-type { /* Style elements matching this existing selector. */
+
+            border-bottom: 1px solid #eee; /* Set border-bottom for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .detail-label { /* Style elements matching this existing selector. */
+
+            color: #777; /* Set color for the selected elements. */
+
+            font-size: 13px; /* Set font-size for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+            letter-spacing: 1px; /* Set letter-spacing for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .detail-value { /* Style elements matching this existing selector. */
+
+            font-size: 18px; /* Set font-size for the selected elements. */
+
+            font-weight: 700; /* Set font-weight for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .important { /* Style elements matching this existing selector. */
+
+            background: #fff8df; /* Set background for the selected elements. */
+
+            border-left: 4px solid #d4af37; /* Set border-left for the selected elements. */
+
+            padding: 18px; /* Set padding for the selected elements. */
+
+            margin-top: 30px; /* Set margin-top for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .btn-dark { /* Style elements matching this existing selector. */
+
+            border-radius: 0; /* Set border-radius for the selected elements. */
+
+            padding: 13px 30px; /* Set padding for the selected elements. */
+
+            margin-top: 25px; /* Set margin-top for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+    

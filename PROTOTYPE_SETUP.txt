@@ -1,0 +1,44 @@
+Local barber scheduling prototype
+
+Project directory
+C:\xampp\htdocs\Barber_Booking_System
+
+Run Apache and MariaDB using the existing XAMPP installation. Open
+http://localhost/Barber_Booking_System/ for the customer page and
+http://localhost/Barber_Booking_System/login.php for staff sign-in.
+
+config.php uses Europe/London. Its database defaults are loopback port 3306,
+database barber_booking, user root and an empty password. The server environment
+can override BARBER_DB_HOST, BARBER_DB_PORT, BARBER_DB_USER and
+BARBER_DB_PASSWORD. Check the intended database before importing or migrating.
+
+schema.sql describes a fresh installation. Existing installations have additive
+migrations under migrations/. Keep setup_admin.php for command-line account
+creation. It reads BARBER_SETUP_USER and BARBER_SETUP_PASSWORD and rejects an
+existing username. Use actual authorised credentials supplied locally.
+
+The service catalogue is in services.php. Prices are labelled examples in GBP.
+The current services share the configured appointment duration. Payment is at
+the shop. Staff can view, cancel, complete and reschedule appointments and
+manage unavailable periods.
+
+Booking confirmation email uses notifications.php. The sender is configured in
+that file and BARBER_GMAIL_APP_PASSWORD supplies its app password through the
+server environment. Keep credentials outside the source. Delivery requires
+separate verification using an authorised mailbox. The reminder worker is
+send_reminders.php. Its --dry-run option checks eligible reminders without
+sending. Verify any local scheduled task separately before relying on it.
+
+Run these command-line checks from the project directory
+C:\xampp\php\php.exe tests\schedule_test.php
+C:\xampp\php\php.exe tests\notifications_test.php
+
+The database and lifecycle test options create temporary data. Use a disposable
+database with the correct environment settings for integration evaluation.
+The thesis B8 and B9 evidence is supplied separately in
+Thesis_B8_B9_evidence.zip. Follow its isolated reproduction instructions.
+
+Cleanup on 9 November 2026 archived unused gallery files, unused styling,
+the database diagnostic page and historical Markdown notes outside the web
+project. The active application code was preserved byte for byte. The verified
+backup is named Project_cleanup_backup_2026_11_09.zip.

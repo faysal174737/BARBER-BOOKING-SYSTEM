@@ -1,0 +1,19 @@
+/* Refine the original prototype without changing its layout or palette. */
+.booking-section{background:radial-gradient(ellipse at 5% 20%,#302819 0,transparent 48%),#111} /* Style elements matching this existing selector. */
+.booking-card{border:1px solid #eadfbe;border-radius:20px;background:linear-gradient(150deg,#fffdf7,#fff 45%);box-shadow:0 28px 75px #0005;position:relative;overflow:hidden;padding:36px} /* Style elements matching this existing selector. */
+.booking-card:before{content:"";position:absolute;inset:0 0 auto;height:4px;background:linear-gradient(90deg,#9b7321,#f3dd8d,#c09a36)} /* Style elements matching this existing selector. */
+.booking-eyebrow{display:flex;align-items:center;gap:8px;color:#806120;font-size:10px;font-weight:700;letter-spacing:2px;margin-bottom:12px} /* Style elements matching this existing selector. */
+.booking-eyebrow span{font-size:18px} /* Style elements matching this existing selector. */
+.booking-card .booking-title{font-size:36px;letter-spacing:.5px;margin-bottom:8px} /* Style elements matching this existing selector. */
+.booking-card .form-label{font-size:12px;font-weight:600;color:#3b3730;margin-bottom:7px} /* Style elements matching this existing selector. */
+.booking-card .form-control,.booking-card .form-select{border-radius:10px;border-color:#e4e0d6;background-color:#fff;padding:13px 15px;font-size:14px;min-height:48px} /* Style elements matching this existing selector. */
+.booking-card .form-control::placeholder{color:#929086} /* Style elements matching this existing selector. */
+.booking-card .form-control:focus,.booking-card .form-select:focus{border-color:#b28a24;box-shadow:0 0 0 4px #d4af371a} /* Style elements matching this existing selector. */
+.booking-help{font-size:11px;color:#777164;margin:8px 0 0;line-height:1.6} /* Style elements matching this existing selector. */
+.booking-card #schedule-counter{background:#f8f5eb;border:1px solid #e8ddba!important;border-radius:12px;color:#655324;font-size:12px;line-height:1.7} /* Style elements matching this existing selector. */
+.booking-card .btn-gold{border-radius:10px;background:linear-gradient(115deg,#c5a033,#ecd78a);color:#211c10;border:0;min-height:52px;font-weight:700;box-shadow:0 6px 18px #b6922826;transition:transform .18s,box-shadow .18s} /* Style elements matching this existing selector. */
+.booking-card .btn-gold:hover{transform:translateY(-2px);box-shadow:0 10px 24px #b6922840;background:linear-gradient(115deg,#d4af37,#f0dda0)} /* Style elements matching this existing selector. */
+.booking-card .btn-gold:focus-visible{outline:3px solid #886317;outline-offset:4px} /* Style elements matching this existing selector. */
+.booking-card .btn-gold:disabled{transform:none;box-shadow:none} /* Style elements matching this existing selector. */
+@media(max-width:575px){.booking-card{padding:25px 20px;border-radius:16px}.booking-card .booking-title{font-size:32px}} /* Apply these existing rules only at the specified viewport size. */
+@media(prefers-reduced-motion:reduce){.booking-card .btn-gold{transition:none;transform:none}} /* Apply these existing rules only at the specified viewport size. */

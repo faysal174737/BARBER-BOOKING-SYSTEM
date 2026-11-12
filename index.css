@@ -1,0 +1,539 @@
+* {
+            box-sizing: border-box; /* Set box-sizing for the selected elements. */
+        } /* End this styling rule or media-query group. */
+
+
+        body { /* Style elements matching this existing selector. */
+
+            margin: 0; /* Set margin for the selected elements. */
+
+            font-family: 'Montserrat', sans-serif; /* Set font-family for the selected elements. */
+
+            background: #f7f7f7; /* Set background for the selected elements. */
+
+            color: #222; /* Set color for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        /* =====================================
+           NAVBAR
+        ===================================== */ /* Continue the existing CSS selector or declaration. */
+
+        .navbar { /* Style elements matching this existing selector. */
+
+            position: absolute; /* Set position for the selected elements. */
+
+            top: 0; /* Set top for the selected elements. */
+
+            width: 100%; /* Set width for the selected elements. */
+
+            z-index: 100; /* Set z-index for the selected elements. */
+
+            padding: 20px 0; /* Set padding for the selected elements. */
+
+            background: rgba(0, 0, 0, 0.35); /* Set background for the selected elements. */
+
+            backdrop-filter: blur(5px); /* Set backdrop-filter for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .navbar-brand { /* Style elements matching this existing selector. */
+
+            font-family: 'Oswald', sans-serif; /* Set font-family for the selected elements. */
+
+            font-size: 28px; /* Set font-size for the selected elements. */
+
+            letter-spacing: 1px; /* Set letter-spacing for the selected elements. */
+
+            color: white !important; /* Set color for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .nav-link { /* Style elements matching this existing selector. */
+
+            color: white !important; /* Set color for the selected elements. */
+
+            font-weight: 500; /* Set font-weight for the selected elements. */
+
+            margin-left: 20px; /* Set margin-left for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .nav-link:hover { /* Style elements matching this existing selector. */
+
+            color: #d4af37 !important; /* Set color for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        /* =====================================
+           HERO
+        ===================================== */ /* Continue the existing CSS selector or declaration. */
+
+        .hero { /* Style elements matching this existing selector. */
+
+            min-height: 720px; /* Set min-height for the selected elements. */
+
+            position: relative; /* Set position for the selected elements. */
+
+            display: flex; /* Set display for the selected elements. */
+
+            align-items: center; /* Set align-items for the selected elements. */
+
+            background-image: /* Set background-image for the selected elements. */
+
+                linear-gradient( /* Continue the existing CSS selector or declaration. */
+                    rgba(0, 0, 0, 0.68), /* Continue the existing CSS selector or declaration. */
+                    rgba(0, 0, 0, 0.72) /* Continue the existing CSS selector or declaration. */
+                ), /* Continue the existing CSS selector or declaration. */
+
+                url(
+                    'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=2000&q=85'
+                ); /* Continue the existing CSS selector or declaration. */
+
+            background-size: cover; /* Set background-size for the selected elements. */
+
+            background-position: center; /* Set background-position for the selected elements. */
+
+            color: white; /* Set color for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .hero-content { /* Style elements matching this existing selector. */
+
+            max-width: 760px; /* Set max-width for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .hero-small { /* Style elements matching this existing selector. */
+
+            font-size: 14px; /* Set font-size for the selected elements. */
+
+            font-weight: 600; /* Set font-weight for the selected elements. */
+
+            letter-spacing: 4px; /* Set letter-spacing for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+            color: #d4af37; /* Set color for the selected elements. */
+
+            margin-bottom: 20px; /* Set margin-bottom for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .hero h1 { /* Style elements matching this existing selector. */
+
+            font-family: 'Oswald', sans-serif; /* Set font-family for the selected elements. */
+
+            font-size: clamp( /* Set font-size for the selected elements. */
+                55px, /* Continue the existing CSS selector or declaration. */
+                8vw, /* Continue the existing CSS selector or declaration. */
+                100px /* Continue the existing CSS selector or declaration. */
+            ); /* Continue the existing CSS selector or declaration. */
+
+            line-height: 0.95; /* Set line-height for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+            margin-bottom: 25px; /* Set margin-bottom for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .hero p { /* Style elements matching this existing selector. */
+
+            font-size: 18px; /* Set font-size for the selected elements. */
+
+            line-height: 1.8; /* Set line-height for the selected elements. */
+
+            max-width: 650px; /* Set max-width for the selected elements. */
+
+            color: #eeeeee; /* Set color for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .btn-gold { /* Style elements matching this existing selector. */
+
+            background: #d4af37; /* Set background for the selected elements. */
+
+            color: #111; /* Set color for the selected elements. */
+
+            border: none; /* Set border for the selected elements. */
+
+            padding: 15px 32px; /* Set padding for the selected elements. */
+
+            font-weight: 700; /* Set font-weight for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+            letter-spacing: 1px; /* Set letter-spacing for the selected elements. */
+
+            transition: 0.3s; /* Set transition for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .btn-gold:hover { /* Style elements matching this existing selector. */
+
+            background: #f0ca55; /* Set background for the selected elements. */
+
+            transform: translateY(-2px); /* Set transform for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .btn-outline-light-custom { /* Style elements matching this existing selector. */
+
+            border: 1px solid white; /* Set border for the selected elements. */
+
+            color: white; /* Set color for the selected elements. */
+
+            padding: 14px 30px; /* Set padding for the selected elements. */
+
+            font-weight: 600; /* Set font-weight for the selected elements. */
+
+            margin-left: 10px; /* Set margin-left for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .btn-outline-light-custom:hover { /* Style elements matching this existing selector. */
+
+            background: white; /* Set background for the selected elements. */
+
+            color: #111; /* Set color for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        /* =====================================
+           INFO BAR
+        ===================================== */ /* Continue the existing CSS selector or declaration. */
+
+        .info-bar { /* Style elements matching this existing selector. */
+
+            background: #111; /* Set background for the selected elements. */
+
+            color: white; /* Set color for the selected elements. */
+
+            padding: 28px 0; /* Set padding for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .info-item { /* Style elements matching this existing selector. */
+
+            text-align: center; /* Set text-align for the selected elements. */
+
+            border-right: 1px solid #444; /* Set border-right for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .info-item:last-child { /* Style elements matching this existing selector. */
+
+            border-right: none; /* Set border-right for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .info-number { /* Style elements matching this existing selector. */
+
+            font-size: 26px; /* Set font-size for the selected elements. */
+
+            font-weight: 700; /* Set font-weight for the selected elements. */
+
+            color: #d4af37; /* Set color for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .info-label { /* Style elements matching this existing selector. */
+
+            font-size: 13px; /* Set font-size for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+            letter-spacing: 1px; /* Set letter-spacing for the selected elements. */
+
+            color: #bbb; /* Set color for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        /* =====================================
+           SECTION
+        ===================================== */ /* Continue the existing CSS selector or declaration. */
+
+        .section { /* Style elements matching this existing selector. */
+
+            padding: 90px 0; /* Set padding for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .section-title { /* Style elements matching this existing selector. */
+
+            font-family: 'Oswald', sans-serif; /* Set font-family for the selected elements. */
+
+            font-size: 48px; /* Set font-size for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .section-subtitle { /* Style elements matching this existing selector. */
+
+            color: #777; /* Set color for the selected elements. */
+
+            max-width: 600px; /* Set max-width for the selected elements. */
+
+            margin: auto; /* Set margin for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        /* =====================================
+           SERVICES
+        ===================================== */ /* Continue the existing CSS selector or declaration. */
+
+        .service-card { /* Style elements matching this existing selector. */
+
+            background: white; /* Set background for the selected elements. */
+
+            padding: 35px; /* Set padding for the selected elements. */
+
+            height: 100%; /* Set height for the selected elements. */
+
+            border-bottom: 3px solid transparent; /* Set border-bottom for the selected elements. */
+
+            transition: 0.3s; /* Set transition for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .service-card:hover { /* Style elements matching this existing selector. */
+
+            transform: translateY(-8px); /* Set transform for the selected elements. */
+
+            border-bottom-color: #d4af37; /* Set border-bottom-color for the selected elements. */
+
+            box-shadow: /* Set box-shadow for the selected elements. */
+                0 15px 35px /* Continue the existing CSS selector or declaration. */
+                rgba(0,0,0,0.08); /* Continue the existing CSS selector or declaration. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .service-icon { /* Style elements matching this existing selector. */
+
+            font-size: 38px; /* Set font-size for the selected elements. */
+
+            margin-bottom: 20px; /* Set margin-bottom for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .service-card h3 { /* Style elements matching this existing selector. */
+
+            font-family: 'Oswald', sans-serif; /* Set font-family for the selected elements. */
+
+            font-size: 28px; /* Set font-size for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        /* =====================================
+           BOOKING SECTION
+        ===================================== */ /* Continue the existing CSS selector or declaration. */
+
+        .booking-section { /* Style elements matching this existing selector. */
+
+            background: #111; /* Set background for the selected elements. */
+
+            color: white; /* Set color for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .booking-card { /* Style elements matching this existing selector. */
+
+            background: white; /* Set background for the selected elements. */
+
+            color: #222; /* Set color for the selected elements. */
+
+            border: none; /* Set border for the selected elements. */
+
+            border-radius: 0; /* Set border-radius for the selected elements. */
+
+            padding: 40px; /* Set padding for the selected elements. */
+
+            box-shadow: /* Set box-shadow for the selected elements. */
+                0 20px 50px /* Continue the existing CSS selector or declaration. */
+                rgba(0,0,0,0.25); /* Continue the existing CSS selector or declaration. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .booking-title { /* Style elements matching this existing selector. */
+
+            font-family: 'Oswald', sans-serif; /* Set font-family for the selected elements. */
+
+            font-size: 40px; /* Set font-size for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .form-control, /* Continue the existing CSS selector or declaration. */
+        .form-select { /* Style elements matching this existing selector. */
+
+            padding: 13px; /* Set padding for the selected elements. */
+
+            border-radius: 0; /* Set border-radius for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .form-control:focus, /* Continue the existing CSS selector or declaration. */
+        .form-select:focus { /* Style elements matching this existing selector. */
+
+            border-color: #d4af37; /* Set border-color for the selected elements. */
+
+            box-shadow: /* Set box-shadow for the selected elements. */
+                0 0 0 0.15rem /* Continue the existing CSS selector or declaration. */
+                rgba(212,175,55,0.2); /* Continue the existing CSS selector or declaration. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        /* =====================================
+           HOW IT WORKS
+        ===================================== */ /* Continue the existing CSS selector or declaration. */
+
+        .step { /* Style elements matching this existing selector. */
+
+            text-align: center; /* Set text-align for the selected elements. */
+
+            padding: 20px; /* Set padding for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .step-number { /* Style elements matching this existing selector. */
+
+            width: 60px; /* Set width for the selected elements. */
+
+            height: 60px; /* Set height for the selected elements. */
+
+            border-radius: 50%; /* Set border-radius for the selected elements. */
+
+            background: #111; /* Set background for the selected elements. */
+
+            color: #d4af37; /* Set color for the selected elements. */
+
+            display: flex; /* Set display for the selected elements. */
+
+            align-items: center; /* Set align-items for the selected elements. */
+
+            justify-content: center; /* Set justify-content for the selected elements. */
+
+            margin: 0 auto 20px; /* Set margin for the selected elements. */
+
+            font-weight: 700; /* Set font-weight for the selected elements. */
+
+            font-size: 20px; /* Set font-size for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        /* =====================================
+           FOOTER
+        ===================================== */ /* Continue the existing CSS selector or declaration. */
+
+        footer { /* Style elements matching this existing selector. */
+
+            background: #080808; /* Set background for the selected elements. */
+
+            color: #aaa; /* Set color for the selected elements. */
+
+            padding: 40px 0; /* Set padding for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        footer h4 { /* Style elements matching this existing selector. */
+
+            color: white; /* Set color for the selected elements. */
+
+            font-family: 'Oswald', sans-serif; /* Set font-family for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        /* =====================================
+           MOBILE
+        ===================================== */ /* Continue the existing CSS selector or declaration. */
+
+        @media ( /* Apply these existing rules only at the specified viewport size. */
+            max-width: 768px /* Set max-width for the selected elements. */
+        ) { /* Style elements matching this existing selector. */
+
+            .hero { /* Style elements matching this existing selector. */
+
+                min-height: 650px; /* Set min-height for the selected elements. */
+
+            } /* End this styling rule or media-query group. */
+
+
+            .hero h1 { /* Style elements matching this existing selector. */
+
+                font-size: 58px; /* Set font-size for the selected elements. */
+
+            } /* End this styling rule or media-query group. */
+
+
+            .btn-outline-light-custom { /* Style elements matching this existing selector. */
+
+                margin-left: 0; /* Set margin-left for the selected elements. */
+
+                margin-top: 10px; /* Set margin-top for the selected elements. */
+
+            } /* End this styling rule or media-query group. */
+
+
+            .info-item { /* Style elements matching this existing selector. */
+
+                border-right: none; /* Set border-right for the selected elements. */
+
+                border-bottom: /* Set border-bottom for the selected elements. */
+                    1px solid #444; /* Continue the existing CSS selector or declaration. */
+
+                padding: 15px; /* Set padding for the selected elements. */
+
+            } /* End this styling rule or media-query group. */
+
+
+            .info-item:last-child { /* Style elements matching this existing selector. */
+
+                border-bottom: none; /* Set border-bottom for the selected elements. */
+
+            } /* End this styling rule or media-query group. */
+
+        } /* End this styling rule or media-query group. */
+
+    

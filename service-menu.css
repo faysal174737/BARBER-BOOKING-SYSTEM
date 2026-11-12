@@ -1,0 +1,110 @@
+/* Service menus extend the existing black-and-gold page without changing unrelated components. */
+.service-card-button { display: block; width: 100%; border: 0; border-bottom: 3px solid transparent; color: #222; font: inherit; text-align: left; cursor: pointer; } /* Make each existing service card an accessible full-card button. */
+.service-card-button .service-icon { display: block; } /* Keep the category icon on its own line. */
+.service-title { display: block; margin-bottom: 16px; font: 700 28px/1.2 'Oswald', sans-serif; } /* Match the previous category-heading typography. */
+.service-description { display: block; min-height: 52px; color: #6c757d; } /* Keep descriptions readable and cards visually aligned. */
+.service-card-action { display: block; margin-top: 20px; font-size: 13px; font-weight: 700; letter-spacing: .03em; } /* Make the price-menu action clear. */
+.service-card-button:focus-visible, .service-option:focus-visible, .service-menu-close:focus-visible { outline: 3px solid #d4af37; outline-offset: 4px; } /* Provide visible keyboard focus. */
+.service-price-note { margin: 24px 0 0; color: #666; font-size: 13px; text-align: center; } /* Identify prices as examples and explain payment timing. */
+.service-menu { width: min(680px, calc(100% - 32px)); max-height: calc(100dvh - 48px); padding: 28px; border: 0; border-top: 4px solid #d4af37; background: #fff; color: #222; box-shadow: 0 24px 80px rgba(0,0,0,.3); } /* Keep the modal within desktop and small-screen viewports. */
+.service-menu::backdrop { background: rgba(0,0,0,.66); } /* Distinguish the active popup from the page behind it. */
+.service-menu-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; } /* Separate the category title and close button. */
+.service-menu-eyebrow { margin: 0 0 6px; color: #75601b; font-size: 11px; font-weight: 700; letter-spacing: .12em; } /* Add a small contextual label. */
+.service-menu h2 { margin: 0; font: 700 32px/1.2 'Oswald', sans-serif; } /* Use the existing title typeface. */
+.service-menu-close { min-width: 40px; min-height: 40px; border: 0; background: #f3f3f3; color: #222; font-size: 28px; line-height: 1; cursor: pointer; } /* Make dismissal easy to see and activate. */
+.service-menu-note { margin: 18px 0; color: #666; font-size: 14px; line-height: 1.5; } /* Explain how a menu choice enters the booking form. */
+.service-menu-list { margin: 0; padding: 0; list-style: none; } /* Use the visible numbered rows rather than browser list indentation. */
+.service-menu-list li + li { border-top: 1px solid #e8e8e8; } /* Keep adjacent services distinct. */
+.service-option { display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; width: 100%; gap: 8px 14px; align-items: center; padding: 16px 8px; border: 0; background: transparent; color: #222; font: inherit; text-align: left; cursor: pointer; } /* Let the whole row select a service without truncating its name. */
+.service-option:hover { background: #faf6e9; } /* Show which service is under the pointer. */
+.service-option-number { color: #8b762e; font-size: 12px; font-weight: 700; } /* Number options in their displayed order. */
+.service-option-name { font-size: 15px; line-height: 1.5; overflow-wrap: anywhere; } /* Wrap longer combined-service names on small screens. */
+.service-option-price { white-space: nowrap; font-size: 16px; } /* Keep each GBP amount together. */
+.service-option-action { grid-column: 2 / 4; color: #74601f; font-size: 11px; font-weight: 700; } /* Show the row's selection action. */
+.service-menu-footer { margin: 18px 0 0; color: #666; font-size: 12px; } /* Repeat that this is an example catalogue without online payment. */
+.service-selection-summary { margin-bottom: 0; } /* Keep the form's service confirmation grouped with its dropdown. */
+@media (max-width: 575px) { /* Preserve space for the six numbered choices on narrow screens. */
+    .service-menu { padding: 20px 16px; } /* Reduce the popup's side padding without changing its controls. */
+    .service-option { gap: 6px 10px; } /* Keep names and prices aligned in the smaller popup. */
+} /* Finish the narrow-screen rules. */
+/* Keep the presentation local to the service cards and dialogs. */
+.service-card-button { position: relative; isolation: isolate; overflow: hidden; }
+.service-card-picture {
+    position: absolute;
+    z-index: -1;
+    inset: 0 0 auto;
+    height: 125px;
+    pointer-events: none;
+    background: linear-gradient(110deg, #faf5e8 10%, #f6edda 75%, #efe3c8);
+    overflow: hidden;
+}
+.service-card-picture svg {
+    position: absolute;
+    right: 8px;
+    bottom: 0;
+    width: min(53%, 164px);
+    height: 100%;
+}
+.service-card-button .service-icon {
+    display: grid;
+    width: 62px;
+    height: 62px;
+    place-items: center;
+    border: 1px solid #e3d3a1;
+    border-radius: 18px;
+    background: linear-gradient(145deg, #fff9e8, #f0e3bf);
+    color: #624a14;
+}
+.service-card-button .service-icon svg { width: 29px; height: 29px; }
+.service-menu {
+    border: 1px solid #dbc994;
+    border-radius: 22px;
+    background: #fcfaf5;
+    overscroll-behavior: contain;
+}
+.service-menu::backdrop { background: rgba(19, 16, 12, .74); backdrop-filter: blur(4px); }
+.service-menu-heading {
+    padding: 18px;
+    border-radius: 15px;
+    background: #262118;
+    color: #fff9e8;
+}
+.service-menu-eyebrow { color: #e9c978; }
+.service-menu-close { border-radius: 50%; background: #fff5da; }
+.service-menu-list { display: grid; gap: 8px; }
+.service-menu-list li + li { border: 0; }
+.service-option {
+    grid-template-columns: 20px 42px minmax(0, 1fr) auto;
+    gap: 3px 12px;
+    padding: 9px 12px;
+    border: 1px solid #e9e1d0;
+    border-radius: 12px;
+    background: #fff;
+}
+.service-option:hover { border-color: #b89143; background: #fff8e6; }
+.service-option-art {
+    display: grid;
+    grid-row: span 2;
+    width: 42px;
+    height: 42px;
+    place-items: center;
+    border-radius: 10px;
+    background: #f4ead2;
+    color: #6d5222;
+}
+.service-option-art svg { width: 34px; height: 34px; }
+.service-option-name { font-weight: 600; }
+.service-option-action { grid-column: 3 / 5; }
+.service-option-price {
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: #f4ead2;
+    color: #493610;
+    font-variant-numeric: tabular-nums;
+}
+@media (max-width: 575px) {
+    .service-option { grid-template-columns: 17px 34px minmax(0, 1fr) auto; gap: 3px 7px; padding: 8px; }
+    .service-option-art { width: 34px; height: 34px; }
+    .service-option-art svg { width: 29px; height: 29px; }
+    .service-option-name, .service-option-price { font-size: 13px; }
+}

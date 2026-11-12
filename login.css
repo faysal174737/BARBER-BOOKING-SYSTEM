@@ -1,0 +1,161 @@
+body { /* Style elements matching this existing selector. */
+
+            min-height: 100vh; /* Set min-height for the selected elements. */
+
+            margin: 0; /* Set margin for the selected elements. */
+
+            font-family: /* Set font-family for the selected elements. */
+                'Montserrat', /* Continue the existing CSS selector or declaration. */
+                sans-serif; /* Continue the existing CSS selector or declaration. */
+
+            background: /* Set background for the selected elements. */
+
+                linear-gradient( /* Continue the existing CSS selector or declaration. */
+                    rgba(0,0,0,0.72), /* Continue the existing CSS selector or declaration. */
+                    rgba(0,0,0,0.78) /* Continue the existing CSS selector or declaration. */
+                ), /* Continue the existing CSS selector or declaration. */
+
+                url(
+                    'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=2000&q=85'
+                ); /* Continue the existing CSS selector or declaration. */
+
+            background-size: cover; /* Set background-size for the selected elements. */
+
+            background-position: center; /* Set background-position for the selected elements. */
+
+            display: flex; /* Set display for the selected elements. */
+
+            align-items: center; /* Set align-items for the selected elements. */
+
+            justify-content: center; /* Set justify-content for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .login-container { /* Style elements matching this existing selector. */
+
+            width: 100%; /* Set width for the selected elements. */
+
+            max-width: 450px; /* Set max-width for the selected elements. */
+
+            padding: 20px; /* Set padding for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .login-card { /* Style elements matching this existing selector. */
+
+            background: white; /* Set background for the selected elements. */
+
+            padding: 45px; /* Set padding for the selected elements. */
+
+            box-shadow: /* Set box-shadow for the selected elements. */
+                0 20px 60px /* Continue the existing CSS selector or declaration. */
+                rgba(0,0,0,0.35); /* Continue the existing CSS selector or declaration. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .brand { /* Style elements matching this existing selector. */
+
+            font-family: /* Set font-family for the selected elements. */
+                'Oswald', /* Continue the existing CSS selector or declaration. */
+                sans-serif; /* Continue the existing CSS selector or declaration. */
+
+            font-size: 34px; /* Set font-size for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+            text-align: center; /* Set text-align for the selected elements. */
+
+            margin-bottom: 5px; /* Set margin-bottom for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .subtitle { /* Style elements matching this existing selector. */
+
+            text-align: center; /* Set text-align for the selected elements. */
+
+            color: #777; /* Set color for the selected elements. */
+
+            margin-bottom: 35px; /* Set margin-bottom for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .form-control { /* Style elements matching this existing selector. */
+
+            border-radius: 0; /* Set border-radius for the selected elements. */
+
+            padding: 13px; /* Set padding for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .form-control:focus { /* Style elements matching this existing selector. */
+
+            border-color: #d4af37; /* Set border-color for the selected elements. */
+
+            box-shadow: /* Set box-shadow for the selected elements. */
+                0 0 0 0.15rem /* Continue the existing CSS selector or declaration. */
+                rgba(212,175,55,0.2); /* Continue the existing CSS selector or declaration. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .login-button { /* Style elements matching this existing selector. */
+
+            background: #111; /* Set background for the selected elements. */
+
+            color: white; /* Set color for the selected elements. */
+
+            border: none; /* Set border for the selected elements. */
+
+            padding: 14px; /* Set padding for the selected elements. */
+
+            width: 100%; /* Set width for the selected elements. */
+
+            font-weight: 700; /* Set font-weight for the selected elements. */
+
+            text-transform: uppercase; /* Set text-transform for the selected elements. */
+
+            letter-spacing: 1px; /* Set letter-spacing for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .login-button:hover { /* Style elements matching this existing selector. */
+
+            background: #d4af37; /* Set background for the selected elements. */
+
+            color: #111; /* Set color for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .back-link { /* Style elements matching this existing selector. */
+
+            text-align: center; /* Set text-align for the selected elements. */
+
+            margin-top: 25px; /* Set margin-top for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .back-link a { /* Style elements matching this existing selector. */
+
+            color: #555; /* Set color for the selected elements. */
+
+            text-decoration: none; /* Set text-decoration for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+
+        .back-link a:hover { /* Style elements matching this existing selector. */
+
+            color: #d4af37; /* Set color for the selected elements. */
+
+        } /* End this styling rule or media-query group. */
+
+    

@@ -1,0 +1,3 @@
+.booking-message { /* Style elements matching this existing selector. */
+    max-width: 650px; /* Set max-width for the selected elements. */
+} /* End this styling rule or media-query group. */
